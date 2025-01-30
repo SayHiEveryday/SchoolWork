@@ -1,0 +1,21 @@
+digraph Flowchart {
+	A [label=Start shape=oval]
+	B [label="Input from" shape=parallelogram]
+	C [label="Input to" shape=parallelogram]
+	D [label="i = 1 to 12" shape=diamond]
+	E [label="j = from to to" shape=diamond]
+	F [label="Compute j * i" shape=rectangle]
+	G [label="Print j x i = result" shape=parallelogram]
+	H [label="New line" shape=rectangle]
+	I [label=End shape=oval]
+	A -> B
+	B -> C
+	C -> D
+	D -> E [label=Yes]
+	E -> F [label=Yes]
+	F -> G
+	G -> E
+	E -> H [label=No]
+	H -> D
+	D -> I [label=No]
+}
