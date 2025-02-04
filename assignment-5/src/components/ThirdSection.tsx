@@ -9,19 +9,19 @@ export default function () {
             <p className={"my-4 text-center text-2xl font-bold"}>
                 กระบวนการเขียนโปรแกรม
             </p>
-            <div className={"w-full flex justify-center"}>
+            <div className={"w-full flex justify-start"}>
                 <Breadcrumbs>
                     <BreadcrumbItem>
-                        <p className={"text-xl mr-14"}>วิเคราะห์ปัญหา</p>
+                        <p className={"text-xl mx-20"}>วิเคราะห์ปัญหา</p>
                     </BreadcrumbItem>
                     <BreadcrumbItem>
-                        <p className={"text-xl mx-16"}>ออกแบบโครงสร้างโปรแกรม</p>
+                        <p className={"text-xl mx-10"}>ออกแบบโครงสร้างโปรแกรม</p>
                     </BreadcrumbItem>
                     <BreadcrumbItem>
-                        <p className={"text-xl mx-16"}>การเขียนโค้ด</p>
+                        <p className={"text-xl mx-20"}>การเขียนโค้ด</p>
                     </BreadcrumbItem>
                     <BreadcrumbItem>
-                        <p className={"text-xl ml-12"}>การทดสอบและแก้ไขข้อผิดพลาด</p>
+                        <p className={"text-xl ml-10"}>การทดสอบและแก้ไขข้อผิดพลาด</p>
                     </BreadcrumbItem>
                 </Breadcrumbs>
             </div>

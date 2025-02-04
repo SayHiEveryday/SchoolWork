@@ -24,7 +24,7 @@ export default function () {
                             การทดสอบเป็นขั้นตอนสำคัญในการพัฒนาโปรแกรม
                             เพื่อให้มั่นใจว่าโปรแกรมทำงานถูกต้องและไม่มีข้อผิดพลาดที่อาจส่งผลกระทบต่อผู้ใช้
                         </p>
-                        <div className={"ml-2 my-2"}>
+                        <div className={"ml-4 my-2"}>
                             <p>
                                 1.1 ประเภทของการทดสอบโปรแกรม
                             </p>
@@ -47,8 +47,8 @@ export default function () {
                         <h1 className={"font-bold"}>
                             2. การแก้ไขข้อผิดพลาด (Debugging)
                         </h1>
-                        <p className={"ml-2"}>Debugging เป็นกระบวนการหาสาเหตุของข้อผิดพลาดและแก้ไขเพื่อให้โปรแกรมทำงานได้ถูกต้อง</p>
-                        <div className={"my-2 ml-2"}>
+                        <p className={"ml-4"}>Debugging เป็นกระบวนการหาสาเหตุของข้อผิดพลาดและแก้ไขเพื่อให้โปรแกรมทำงานได้ถูกต้อง</p>
+                        <div className={"my-2 ml-4"}>
                             <p>2.1 ประเภทของข้อผิดพลาด (Types of Errors)</p>
                             <div className={"ml-4 mt-2"}>
                                 <p className={"my-2"}>Syntax Error (ข้อผิดพลาดทางไวยากรณ์)
@@ -78,7 +78,7 @@ export default function () {
                         <p className={"text-md mt-1"}>
                             เอกสารประกอบโปรแกรมช่วยให้ผู้ใช้ นักพัฒนา หรือทีมอื่น ๆ เข้าใจการทำงานของระบบและสามารถดูแลหรือพัฒนาต่อได้ง่ายขึ้น
                         </p>
-                        <div className={"ml-2 my-2"}>
+                        <div className={"ml-4 my-2"}>
                             <p>
                                 1.1 เอกสารสำหรับนักพัฒนา (Developer Documentation)
                             </p>
@@ -93,8 +93,8 @@ export default function () {
                         <h1 className={"font-bold"}>
                             2. การบำรุงรักษาโปรแกรม (Software Maintenance)
                         </h1>
-                        <p className={"ml-2"}>การบำรุงรักษาโปรแกรมเป็นกระบวนการปรับปรุงหรือแก้ไขซอฟต์แวร์หลังจากที่เปิดใช้งาน</p>
-                        <div className={"my-2 ml-2"}>
+                        <p className={"ml-4"}>การบำรุงรักษาโปรแกรมเป็นกระบวนการปรับปรุงหรือแก้ไขซอฟต์แวร์หลังจากที่เปิดใช้งาน</p>
+                        <div className={"my-2 ml-4"}>
                             <p>2.1 ประเภทของการบำรุงรักษา</p>
                             <div className={"ml-4 mt-2"}>
                                 <p className={"my-2"}>Adaptive Maintenance (การปรับปรุงให้รองรับการเปลี่ยนแปลง)</p>
@@ -119,20 +119,20 @@ export default function () {
                         <h1 className={"font-bold"}>
                             1. โครงสร้างแบบเรียงลำดับ (Sequence Structure)
                         </h1>
-                        <p className={"ml-2 mt-1 "}>
+                        <p className={"ml-4 mt-1 "}>
                             การทำงานของโปรแกรมเป็นลำดับจากบนลงล่าง ไม่มีการกระโดดข้าม
                         </p>
                         <h1 className={"font-bold my-2"}>
                             2. โครงสร้างแบบมีทางเลือก (Decision Structure)
                         </h1>
-                        <div className={"my-2 ml-2"}>
+                        <div className={"my-4 ml-2"}>
                             <p className={"my-2"}>ใช้สำหรับ การตัดสินใจ โดยมีเงื่อนไขกำหนดว่าโปรแกรมจะทำงานแบบใด</p>
                             <p className={"my-2"}>เช่น ถ้าเงื่อนไขเป็นจริงให้ทำงานหนึ่ง ถ้าเป็นเท็จให้ทำงานอีกแบบ</p>
                         </div>
                         <h1 className={"font-bold my-2"}>
                             3. โครงสร้างแบบทำซ้ำ (Repetition Structure)
                         </h1>
-                        <div className={"my-2 ml-2"}>
+                        <div className={"my-2 ml-4"}>
                             <p className={"my-2"}>ใช้ วนซ้ำ คำสั่งจนกว่าเงื่อนไขจะเป็นเท็จ</p>
                             <p className={"my-2"}>ใช้ลดความซ้ำซ้อนของโค้ด และเพิ่มประสิทธิภาพของโปรแกรม</p>
                         </div>
