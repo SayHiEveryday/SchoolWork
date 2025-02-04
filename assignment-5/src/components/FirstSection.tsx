@@ -147,7 +147,7 @@ export default function FirstSection() {
                         <p>
                             ซึ่งทำได้โดยใช้คำสั่งควบคุมการทำงาน ได้แก่
                         </p>
-                        <Listbox>
+                        <Listbox className={"my-4"}>
                             <ListboxItem startContent={<FileText />}>
                                 <p>
                                     คำสั่งเงื่อนไข (Conditional Statements)
