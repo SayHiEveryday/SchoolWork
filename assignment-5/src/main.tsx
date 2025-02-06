@@ -8,7 +8,7 @@ import {ThemeProvider} from "next-themes";
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
       <HeroUIProvider>
-          <ThemeProvider attribute={"class"} defaultTheme={"dark"}>
+          <ThemeProvider attribute={"class"} defaultTheme={"light"}>
               <App />
           </ThemeProvider>
       </HeroUIProvider>
